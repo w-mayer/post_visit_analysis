@@ -34,3 +34,6 @@ jupyter notebook scripts/analysis.ipynb
 
 # Data Source
 All analysis is based on the public Northern Ireland Life and Times Survey (2023). For more information, visit: https://www.ark.ac.uk/nilt/
+
+# License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more information.
