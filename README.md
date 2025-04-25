@@ -4,8 +4,11 @@ This project analyzes the rise in Sinn Féin's support using the 2023 **Northern
 
 ## Project Structure
 [data](data/data.sav): Raw NILT data from 2023
+
 [analysis](scripts/analysis.ipynb): Main exploratory analysis notebook
+
 [output] (output/): Visualizations and model summary
+
 [requirements](requirements.txt): dependencies
 
 ## Setup
