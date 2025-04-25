@@ -7,7 +7,7 @@ This project analyzes the rise in Sinn Féin's support using the 2023 **Northern
 
 [analysis](scripts/analysis.ipynb): Main exploratory analysis notebook
 
-[output] (output): Visualizations and model summary
+[output](output/): Visualizations and model summary
 
 [requirements](requirements.txt): dependencies
 
