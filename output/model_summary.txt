@@ -1,28 +1,30 @@
                  Generalized Linear Model Regression Results                  
 ==============================================================================
-Dep. Variable:                  party   No. Observations:                  599
-Model:                            GLM   Df Residuals:                      586
-Model Family:                Binomial   Df Model:                           12
+Dep. Variable:                  party   No. Observations:                 1148
+Model:                            GLM   Df Residuals:                     1134
+Model Family:                Binomial   Df Model:                           13
 Link Function:                  Logit   Scale:                          1.0000
-Method:                          IRLS   Log-Likelihood:                -236.51
-Date:                Sun, 27 Apr 2025   Deviance:                       473.01
-Time:                        20:48:48   Pearson chi2:                     573.
-No. Iterations:                     6   Pseudo R-squ. (CS):             0.2737
+Method:                          IRLS   Log-Likelihood:                -425.67
+Date:                Wed, 30 Apr 2025   Deviance:                       851.34
+Time:                        17:09:57   Pearson chi2:                 1.09e+03
+No. Iterations:                     6   Pseudo R-squ. (CS):             0.2139
 Covariance Type:            nonrobust                                         
 ==================================================================================================
                                      coef    std err          z      P>|z|      [0.025      0.975]
 --------------------------------------------------------------------------------------------------
-const                             -1.6578      0.756     -2.192      0.028      -3.140      -0.176
-reunification_support              2.8089      0.288      9.764      0.000       2.245       3.373
-redistribution_centered            0.3323      0.192      1.735      0.083      -0.043       0.708
-redistribution_x_reunification    -0.0679      0.228     -0.298      0.766      -0.515       0.379
-education_score                   -0.1172      0.087     -1.355      0.176      -0.287       0.052
-income_group_Upper Mid             0.2630      0.305      0.862      0.389      -0.335       0.861
-income_group_Lower Mid             0.4555      0.349      1.304      0.192      -0.229       1.140
-income_group_Low                   0.5606      0.371      1.510      0.131      -0.167       1.288
-RAGECAT_25-34                     -0.2073      0.509     -0.408      0.684      -1.204       0.790
-RAGECAT_35-44                     -0.6591      0.557     -1.182      0.237      -1.752       0.434
-RAGECAT_45-54                     -0.5157      0.529     -0.975      0.330      -1.553       0.521
-RAGECAT_55-64                     -1.3132      0.530     -2.478      0.013      -2.352      -0.274
-RAGECAT_65+                       -1.4638      0.515     -2.844      0.004      -2.472      -0.455
+const                             -2.0773      0.451     -4.603      0.000      -2.962      -1.193
+reunification_support              2.6451      0.212     12.491      0.000       2.230       3.060
+reunification_unknown              0.9544      0.307      3.104      0.002       0.352       1.557
+redistribution_centered            0.3205      0.128      2.507      0.012       0.070       0.571
+redistribution_unknown         -4.756e-16   4.18e-16     -1.138      0.255   -1.29e-15    3.43e-16
+redistribution_x_reunification    -0.0862      0.164     -0.524      0.600      -0.409       0.236
+education_score                   -0.1290      0.059     -2.170      0.030      -0.246      -0.013
+income_group_Upper Mid             0.4088      0.234      1.751      0.080      -0.049       0.867
+income_group_Lower Mid             0.3441      0.252      1.368      0.171      -0.149       0.837
+income_group_Low                   0.6831      0.256      2.672      0.008       0.182       1.184
+RAGECAT_25-34                      0.0079      0.336      0.023      0.981      -0.652       0.667
+RAGECAT_35-44                     -0.4179      0.353     -1.185      0.236      -1.109       0.273
+RAGECAT_45-54                     -0.2463      0.340     -0.725      0.469      -0.913       0.420
+RAGECAT_55-64                     -0.5515      0.346     -1.594      0.111      -1.230       0.127
+RAGECAT_65+                       -0.8757      0.335     -2.613      0.009      -1.533      -0.219
 ==================================================================================================
